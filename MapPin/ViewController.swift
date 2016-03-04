@@ -58,7 +58,6 @@ class ViewController: UIViewController, MKMapViewDelegate {
         mapView.addAnnotation(annotation4)
         mapView.addAnnotation(annotation5)
         
-        
     }
 
     override func didReceiveMemoryWarning() {
