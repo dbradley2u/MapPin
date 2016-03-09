@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AA56EDC1C8FAB640085AB36 /* MyPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA56EDB1C8FAB640085AB36 /* MyPin.swift */; };
+		9AA56EDF1C8FB0D00085AB36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB98FB1C8A4C2700ED182E /* ViewController.swift */; };
+		9AA56EE01C8FB0D00085AB36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB98F91C8A4C2700ED182E /* AppDelegate.swift */; };
+		9AA56EE11C8FB0D00085AB36 /* MyPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA56EDB1C8FAB640085AB36 /* MyPin.swift */; };
+		9AA56EE31C8FB0D00085AB36 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFB99271C8A4DB500ED182E /* MapKit.framework */; };
+		9AA56EE51C8FB0D00085AB36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB99021C8A4C2700ED182E /* LaunchScreen.storyboard */; };
+		9AA56EE61C8FB0D00085AB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB99001C8A4C2700ED182E /* Assets.xcassets */; };
+		9AA56EE71C8FB0D00085AB36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB98FD1C8A4C2700ED182E /* Main.storyboard */; };
 		9AFB98FA1C8A4C2700ED182E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB98F91C8A4C2700ED182E /* AppDelegate.swift */; };
 		9AFB98FC1C8A4C2700ED182E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB98FB1C8A4C2700ED182E /* ViewController.swift */; };
 		9AFB98FF1C8A4C2700ED182E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB98FD1C8A4C2700ED182E /* Main.storyboard */; };
@@ -35,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9AA56EDB1C8FAB640085AB36 /* MyPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPin.swift; sourceTree = "<group>"; };
+		9AA56EEB1C8FB0D00085AB36 /* MapPinSatellite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapPinSatellite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA56EEC1C8FB0D00085AB36 /* MapPinSatellite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MapPinSatellite-Info.plist"; path = "/Users/denise/My iOS Apps/CS371/MapPinApp/MapPin/MapPinSatellite-Info.plist"; sourceTree = "<absolute>"; };
 		9AFB98F61C8A4C2700ED182E /* MapPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFB98F91C8A4C2700ED182E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AFB98FB1C8A4C2700ED182E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +63,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9AA56EE21C8FB0D00085AB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA56EE31C8FB0D00085AB36 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AFB98F31C8A4C2700ED182E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,6 +104,7 @@
 				9AFB990D1C8A4C2700ED182E /* MapPinTests */,
 				9AFB99181C8A4C2700ED182E /* MapPinUITests */,
 				9AFB98F71C8A4C2700ED182E /* Products */,
+				9AA56EEC1C8FB0D00085AB36 /* MapPinSatellite-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +114,7 @@
 				9AFB98F61C8A4C2700ED182E /* MapPin.app */,
 				9AFB990A1C8A4C2700ED182E /* MapPinTests.xctest */,
 				9AFB99151C8A4C2700ED182E /* MapPinUITests.xctest */,
+				9AA56EEB1C8FB0D00085AB36 /* MapPinSatellite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +128,7 @@
 				9AFB99001C8A4C2700ED182E /* Assets.xcassets */,
 				9AFB99021C8A4C2700ED182E /* LaunchScreen.storyboard */,
 				9AFB99051C8A4C2700ED182E /* Info.plist */,
+				9AA56EDB1C8FAB640085AB36 /* MyPin.swift */,
 			);
 			path = MapPin;
 			sourceTree = "<group>";
@@ -132,6 +154,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9AA56EDD1C8FB0D00085AB36 /* MapPinSatellite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA56EE81C8FB0D00085AB36 /* Build configuration list for PBXNativeTarget "MapPinSatellite" */;
+			buildPhases = (
+				9AA56EDE1C8FB0D00085AB36 /* Sources */,
+				9AA56EE21C8FB0D00085AB36 /* Frameworks */,
+				9AA56EE41C8FB0D00085AB36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapPinSatellite;
+			productName = MapPin;
+			productReference = 9AA56EEB1C8FB0D00085AB36 /* MapPinSatellite.app */;
+			productType = "com.apple.product-type.application";
+		};
 		9AFB98F51C8A4C2700ED182E /* MapPin */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AFB991E1C8A4C2700ED182E /* Build configuration list for PBXNativeTarget "MapPin" */;
@@ -224,11 +263,22 @@
 				9AFB98F51C8A4C2700ED182E /* MapPin */,
 				9AFB99091C8A4C2700ED182E /* MapPinTests */,
 				9AFB99141C8A4C2700ED182E /* MapPinUITests */,
+				9AA56EDD1C8FB0D00085AB36 /* MapPinSatellite */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9AA56EE41C8FB0D00085AB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA56EE51C8FB0D00085AB36 /* LaunchScreen.storyboard in Resources */,
+				9AA56EE61C8FB0D00085AB36 /* Assets.xcassets in Resources */,
+				9AA56EE71C8FB0D00085AB36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AFB98F41C8A4C2700ED182E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,12 +306,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9AA56EDE1C8FB0D00085AB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA56EDF1C8FB0D00085AB36 /* ViewController.swift in Sources */,
+				9AA56EE01C8FB0D00085AB36 /* AppDelegate.swift in Sources */,
+				9AA56EE11C8FB0D00085AB36 /* MyPin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AFB98F21C8A4C2700ED182E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9AFB98FC1C8A4C2700ED182E /* ViewController.swift in Sources */,
 				9AFB98FA1C8A4C2700ED182E /* AppDelegate.swift in Sources */,
+				9AA56EDC1C8FAB640085AB36 /* MyPin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +377,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9AA56EE91C8FB0D00085AB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MapPinSatellite-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradley.MapPinSatellite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AA56EEA1C8FB0D00085AB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MapPinSatellite-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bradley.MapPinSatellite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		9AFB991C1C8A4C2700ED182E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,6 +553,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9AA56EE81C8FB0D00085AB36 /* Build configuration list for PBXNativeTarget "MapPinSatellite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA56EE91C8FB0D00085AB36 /* Debug */,
+				9AA56EEA1C8FB0D00085AB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9AFB98F11C8A4C2700ED182E /* Build configuration list for PBXProject "MapPin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -486,6 +578,7 @@
 				9AFB99201C8A4C2700ED182E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AFB99211C8A4C2700ED182E /* Build configuration list for PBXNativeTarget "MapPinTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +587,7 @@
 				9AFB99231C8A4C2700ED182E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AFB99241C8A4C2700ED182E /* Build configuration list for PBXNativeTarget "MapPinUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +596,7 @@
 				9AFB99261C8A4C2700ED182E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
